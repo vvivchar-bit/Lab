@@ -29,7 +29,7 @@ For each class, implement methods for:
 - displaying results on the screen.
 
 **Source code:**  
-[Figure_Classes.cpp](main 5.cpp)
+[main_lab.cpp]()
 
 ---
 
