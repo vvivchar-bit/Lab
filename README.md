@@ -11,7 +11,7 @@ Gain skills in object-oriented programming using C++.
 ---
 
 ## 📄 Full report  
-**[View PDF report](https://github.com/vvivchar-bit/-111/blob/main/lab%20777.pdf)**
+**[View PDF report](Lab.pdf)**
 
 ---
 
