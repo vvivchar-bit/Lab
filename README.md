@@ -1,4 +1,4 @@
-# Lab 777  
+# Lab 
 **Topic:** Developing programs with user-defined classes. Work with classes and objects.  
 **Author:** Vadym Vivchar, group ALK-43  
 
