@@ -1,80 +1,81 @@
-# Лабораторна робота — Lab 777  
-**Тема:** Розробка програм з користувацькими класами. Робота з класами та об’єктами  
-**Виконав:** Вівчар Вадим Вікторович, група ALK-43  
+# Lab 777  
+**Topic:** Developing programs with user-defined classes. Work with classes and objects.  
+**Author:** Vadym Vivchar, group ALK-43  
 
 ---
 
-## 🎯 Мета роботи  
-Навчитися працювати з класами та об’єктами.  
-Набути навичок об’єктно-орієнтованого програмування на C++.
+## 🎯 Goal  
+Learn to work with classes and objects.  
+Gain skills in object-oriented programming using C++.
 
 ---
 
-## 📄 Повний звіт  
-**[Переглянути PDF-звіт](https://github.com/vvivchar-bit/-111/blob/main/lab%20777.pdf)**
+## 📄 Full report  
+**[View PDF report](https://github.com/vvivchar-bit/-111/blob/main/lab%20777.pdf)**
 
 ---
 
-## 💻 Завдання  
-**Опис:**  
-Створити базовий клас `Figure`, у якому визначено координати вершини геометричної фігури.  
-Створити похідні класи:  
-- `Cone` — конус (радіус і висота),  
-- `Cylinder` — циліндр (радіус і висота),  
-- `Sphere` — куля (радіус).  
+## 💻 Task  
+**Description:**  
+Create a base class `Figure` with coordinates of a geometric shape.  
+Derived classes:  
+- `Cone` — radius and height,  
+- `Cylinder` — radius and height,  
+- `Sphere` — radius only.  
 
-Для кожного класу реалізувати методи:
-- обчислення об’єму;  
-- обчислення площі поверхні;  
-- виведення результатів на екран.
+For each class, implement methods for:
+- calculating volume;  
+- calculating surface area;  
+- displaying results on the screen.
 
-**Код програми:**  
+**Source code:**  
 [Figure_Classes.cpp](https://github.com/vvivchar-bit/-111/blob/main/Figure_Classes.cpp)
 
 ---
 
-## ⚙️ Використане програмне забезпечення
+## ⚙️ Used software
 - **IDE:** Dev-C++  
-- **Мова:** C++17  
-- **Операційна система:** Windows 10  
+- **Language:** C++17  
+- **OS:** Windows 10  
 
 ---
 
-## 🧠 Контрольні запитання з відповідями
+## 🧠 Control questions with answers
 
-**1. Що таке успадкування в ООП?**  
-Це механізм створення нового класу на основі існуючого з успадкуванням його властивостей і методів.
-
----
-
-**2. Які є специфікатори доступу?**  
-`public`, `protected`, `private` — визначають рівень доступу до членів класу.
+**1. What is inheritance in OOP?**  
+It’s a mechanism that allows creating a new class based on an existing one, reusing its properties and methods.
 
 ---
 
-**3. Що стається при public-успадкуванні?**  
-Відкриті члени базового класу залишаються відкритими у похідному.
+**2. What access specifiers exist?**  
+`public`, `protected`, and `private` — define visibility and access level of class members.
 
 ---
 
-**4. Що стається при private-успадкуванні?**  
-Усі успадковані члени стають приватними у похідному класі.
+**3. What happens during public inheritance?**  
+Public members of the base class remain public in the derived class.
 
 ---
 
-**5. Для чого потрібен protected?**  
-Щоб надати доступ похідним класам, але приховати дані від зовнішнього коду.
+**4. What happens during private inheritance?**  
+All inherited members become private in the derived class.
 
 ---
 
-**6. У якому порядку викликаються конструктори та деструктори?**  
-Конструктори — від базового до похідного; деструктори — у зворотному порядку.
+**5. What is `protected` used for?**  
+It allows derived classes to access members of the base class but hides them from external code.
 
 ---
 
-**7. Що таке множинне успадкування?**  
-Це наслідування властивостей від кількох базових класів одночасно.  
+**6. Order of constructor and destructor calls?**  
+Constructors: from base to derived.  
+Destructors: in reverse order (derived → base).
 
 ---
 
-© Вівчар Вадим Вікторович, група ALK-43  
+**7. What is multiple inheritance?**  
+A class can inherit from several base classes at once.
+
+---
+
+© Vadym Vivchar, group ALK-43
